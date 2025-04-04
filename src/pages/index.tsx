@@ -13,13 +13,21 @@ export default function LandingC4AKit() {
           <p className="mt-6 text-lg text-slate-300">
             Evalúa tu madurez, toma acción y demuestra que estás listo para despegar.
           </p>
-          <div className="mt-8 flex justify-center gap-4">
+          <div className="mt-8 flex justify-center gap-4 flex-wrap">
             <a
               href="/kit/C4A_Kit_Madurez_v1.xlsx"
               download
               className="text-lg px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-white rounded-xl inline-flex gap-2 items-center"
             >
-              <DownloadIcon className="w-5 h-5" /> Descargar Kit Gratis
+              <DownloadIcon className="w-5 h-5" /> Kit Básico (Descarga Libre)
+            </a>
+            <a
+              href="https://form.jotform.com/tu_formulario_para_kit_mediano"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg px-6 py-3 border border-emerald-400 text-emerald-400 hover:bg-emerald-900/20 rounded-xl inline-flex gap-2 items-center"
+            >
+              <ShieldCheckIcon className="w-5 h-5" /> Solicitar Kit Mediano
             </a>
             <Button variant="outline" className="text-lg px-6 py-3 border-emerald-400 text-emerald-400 hover:bg-emerald-900/20 flex items-center gap-2">
               <MailIcon className="w-5 h-5" /> Agendar Diagnóstico
