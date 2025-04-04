@@ -14,9 +14,13 @@ export default function LandingC4AKit() {
             Evalúa tu madurez, toma acción y demuestra que estás listo para despegar.
           </p>
           <div className="mt-8 flex justify-center gap-4">
-            <Button className="text-lg px-6 py-3 flex items-center gap-2">
+            <a
+              href="/kit/C4A_Kit_Madurez_v1.xlsx"
+              download
+              className="text-lg px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-white rounded-xl inline-flex gap-2 items-center"
+            >
               <DownloadIcon className="w-5 h-5" /> Descargar Kit Gratis
-            </Button>
+            </a>
             <Button variant="outline" className="text-lg px-6 py-3 border-emerald-400 text-emerald-400 hover:bg-emerald-900/20 flex items-center gap-2">
               <MailIcon className="w-5 h-5" /> Agendar Diagnóstico
             </Button>
