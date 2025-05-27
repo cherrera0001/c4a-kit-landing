@@ -1,0 +1,1706 @@
+### Preguntas de Evaluación de Madurez en Ciberseguridad
+
+A continuación, presento un conjunto de preguntas de evaluación para cada dominio de ciberseguridad, siguiendo el formato solicitado. He creado 5 preguntas por dominio, cada una con 5 opciones de respuesta que reflejan una escala progresiva de madurez.
+
+## 1. Dominio: Gobernanza de Seguridad
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "8a2b958c-0bc5-4360-bd12-8659209c5be1",
+    "texto": "¿Cuenta la organización con políticas de seguridad de la información formalmente documentadas?",
+    "descripcion": "Las políticas de seguridad son documentos que establecen el compromiso de la dirección y el enfoque de la organización para gestionar la seguridad de la información.",
+    "nivel_diagnostico": 1,
+    "orden": 1,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existen políticas de seguridad de la información documentadas.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existen algunas políticas básicas, pero no están formalizadas ni aprobadas por la dirección.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existen políticas formales aprobadas por la dirección, pero no se revisan regularmente ni se comunican de manera efectiva.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existen políticas completas, aprobadas, comunicadas y revisadas periódicamente, pero su cumplimiento no se mide sistemáticamente.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existen políticas completas, aprobadas, comunicadas, revisadas periódicamente y con métricas de cumplimiento que se reportan a la dirección.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "8a2b958c-0bc5-4360-bd12-8659209c5be1",
+    "texto": "¿Existe un responsable o equipo formalmente designado para la seguridad de la información?",
+    "descripcion": "Se refiere a la asignación clara de roles y responsabilidades para la gestión de la seguridad de la información dentro de la organización.",
+    "nivel_diagnostico": 1,
+    "orden": 2,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe ningún responsable designado para la seguridad de la información.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Las responsabilidades de seguridad se asignan de manera informal o ad-hoc cuando surgen problemas.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un responsable designado, pero con dedicación parcial y sin un mandato claro o recursos suficientes.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un responsable o equipo formal con roles definidos, pero con limitada influencia en decisiones estratégicas.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un CISO o equipo de seguridad formalmente establecido, con recursos adecuados, mandato claro y reporte directo a la alta dirección.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "8a2b958c-0bc5-4360-bd12-8659209c5be1",
+    "texto": "¿Cómo se gestiona la concientización y formación en seguridad para los empleados?",
+    "descripcion": "Se refiere a los programas y actividades destinados a educar a los empleados sobre sus responsabilidades de seguridad y buenas prácticas.",
+    "nivel_diagnostico": 1,
+    "orden": 3,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe ningún programa de concientización o formación en seguridad.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se realizan actividades de concientización ocasionales, sin un programa estructurado.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un programa básico de concientización anual, pero sin adaptación a diferentes roles o seguimiento de efectividad.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un programa regular con contenido adaptado a diferentes roles y algunas métricas de efectividad.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un programa integral con formación específica por roles, simulaciones prácticas, métricas de efectividad y mejora continua.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "8a2b958c-0bc5-4360-bd12-8659209c5be1",
+    "texto": "¿Cómo se integra la seguridad de la información en la gobernanza corporativa?",
+    "descripcion": "Se refiere a cómo la seguridad de la información se incorpora en la estructura de gobierno, toma de decisiones y supervisión a nivel directivo.",
+    "nivel_diagnostico": 1,
+    "orden": 4,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "La seguridad no forma parte de la agenda de gobernanza corporativa.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "La seguridad se discute de manera reactiva solo cuando ocurren incidentes significativos.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un comité de seguridad que se reúne periódicamente, pero con limitada influencia en decisiones estratégicas.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "La seguridad es un tema regular en la agenda directiva, con reportes periódicos y KPIs establecidos.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "La seguridad está plenamente integrada en la gobernanza corporativa, con supervisión directa del consejo, métricas alineadas con objetivos de negocio y asignación presupuestaria estratégica.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "8a2b958c-0bc5-4360-bd12-8659209c5be1",
+    "texto": "¿Cómo se gestiona el cumplimiento normativo en materia de seguridad de la información?",
+    "descripcion": "Se refiere a los procesos para identificar, evaluar y asegurar el cumplimiento de leyes, regulaciones y estándares aplicables a la seguridad de la información.",
+    "nivel_diagnostico": 1,
+    "orden": 5,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un proceso para identificar o gestionar requisitos normativos de seguridad.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se identifican algunos requisitos normativos, pero se gestionan de manera reactiva y sin un enfoque sistemático.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un inventario de requisitos normativos y se realizan evaluaciones periódicas de cumplimiento, pero sin un programa formal.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un programa formal de cumplimiento con evaluaciones regulares, planes de remediación y seguimiento.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un programa integral de cumplimiento con evaluaciones automatizadas, integración en procesos de negocio, auditorías independientes y mejora continua.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+## 2. Dominio: Gestión de Riesgos
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "a944bdfb-a0d6-4317-bc7e-7bd5f26b9fab",
+    "texto": "¿Cómo se identifican y evalúan los riesgos de seguridad de la información en la organización?",
+    "descripcion": "Se refiere al proceso sistemático para identificar amenazas, vulnerabilidades y evaluar su impacto potencial y probabilidad.",
+    "nivel_diagnostico": 1,
+    "orden": 1,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un proceso formal para identificar o evaluar riesgos de seguridad.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Los riesgos se identifican de manera reactiva o ad-hoc, sin una metodología consistente.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un proceso básico de evaluación de riesgos que se realiza periódicamente, pero sin una metodología completa o integración con el negocio.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe una metodología formal de gestión de riesgos con criterios definidos, que se aplica regularmente y cuyos resultados se comunican a la dirección.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un proceso integral de gestión de riesgos, alineado con estándares internacionales, integrado con los objetivos de negocio, con herramientas especializadas y revisión continua.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "a944bdfb-a0d6-4317-bc7e-7bd5f26b9fab",
+    "texto": "¿Cómo se gestionan los riesgos identificados en la organización?",
+    "descripcion": "Se refiere a las estrategias y acciones para tratar los riesgos identificados (mitigar, transferir, aceptar o evitar).",
+    "nivel_diagnostico": 1,
+    "orden": 2,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un proceso para gestionar o tratar los riesgos identificados.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Los riesgos se gestionan de manera reactiva, sin planes formales de tratamiento o seguimiento.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un proceso básico para documentar planes de tratamiento, pero con seguimiento limitado y sin criterios claros para la aceptación de riesgos.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un proceso formal con planes de tratamiento documentados, responsables asignados, plazos definidos y seguimiento regular.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un proceso integral con estrategias de tratamiento optimizadas, análisis costo-beneficio, niveles de aprobación según materialidad, métricas de efectividad y mejora continua.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "a944bdfb-a0d6-4317-bc7e-7bd5f26b9fab",
+    "texto": "¿Cómo se integra la gestión de riesgos de seguridad con los procesos de negocio y toma de decisiones?",
+    "descripcion": "Se refiere a cómo los riesgos de seguridad se consideran en las decisiones estratégicas, proyectos y operaciones diarias.",
+    "nivel_diagnostico": 1,
+    "orden": 3,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "Los riesgos de seguridad no se consideran en los procesos de negocio o toma de decisiones.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Los riesgos de seguridad se consideran ocasionalmente, de manera reactiva o después de que las decisiones ya han sido tomadas.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un proceso básico para considerar riesgos de seguridad en proyectos importantes, pero no está integrado sistemáticamente en todos los procesos de negocio.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Los riesgos de seguridad se evalúan formalmente en proyectos y decisiones importantes, con criterios definidos y participación del área de seguridad.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "La gestión de riesgos de seguridad está plenamente integrada en la cultura organizacional, con evaluaciones de riesgo automatizadas en procesos clave, indicadores en cuadros de mando ejecutivos y consideración explícita en la planificación estratégica.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "a944bdfb-a0d6-4317-bc7e-7bd5f26b9fab",
+    "texto": "¿Cómo se gestionan los riesgos asociados a terceros y proveedores?",
+    "descripcion": "Se refiere a los procesos para evaluar y gestionar los riesgos de seguridad introducidos por proveedores, socios comerciales y otros terceros con acceso a sistemas o información.",
+    "nivel_diagnostico": 1,
+    "orden": 4,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un proceso para evaluar o gestionar riesgos de seguridad asociados a terceros.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se realizan algunas evaluaciones básicas de proveedores críticos, pero sin un proceso formal o seguimiento.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un proceso básico de evaluación de seguridad para nuevos proveedores importantes, pero con seguimiento limitado y sin reevaluaciones periódicas.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un programa formal de gestión de riesgos de terceros con evaluaciones iniciales, cláusulas contractuales de seguridad, y reevaluaciones periódicas de proveedores críticos.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un programa integral con evaluaciones basadas en riesgo, monitoreo continuo, auditorías periódicas, integración con el proceso de adquisiciones y gestión del ciclo de vida completo de la relación con terceros.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "a944bdfb-a0d6-4317-bc7e-7bd5f26b9fab",
+    "texto": "¿Cómo se comunican y reportan los riesgos de seguridad a la dirección y partes interesadas?",
+    "descripcion": "Se refiere a los mecanismos para informar sobre los riesgos de seguridad a los niveles adecuados de gestión y otras partes interesadas relevantes.",
+    "nivel_diagnostico": 1,
+    "orden": 5,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un proceso para comunicar o reportar riesgos de seguridad a la dirección.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Los riesgos se comunican de manera informal o solo cuando ocurren incidentes significativos.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un proceso básico de reporte de riesgos, pero sin una frecuencia establecida o formato estandarizado.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un proceso formal con reportes periódicos, indicadores clave de riesgo (KRIs) definidos y presentaciones regulares a la dirección.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un proceso integral con cuadros de mando ejecutivos, reportes adaptados a diferentes audiencias, análisis de tendencias, benchmarking externo y vinculación clara con objetivos estratégicos y apetito de riesgo.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+## 3. Dominio: Control de Acceso
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "8516bc7a-4dbe-45ac-b137-1bd34bc8545a",
+    "texto": "¿Cómo se gestiona la creación, modificación y eliminación de cuentas de usuario?",
+    "descripcion": "Se refiere a los procesos para gestionar el ciclo de vida de las identidades y cuentas de usuario en los sistemas.",
+    "nivel_diagnostico": 1,
+    "orden": 1,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un proceso formal para gestionar cuentas de usuario; se crean y eliminan de manera ad-hoc.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existe un proceso básico, pero manual y sin verificaciones sistemáticas o auditorías.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un proceso documentado con aprobaciones requeridas, pero con revisiones periódicas limitadas y poca automatización.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un proceso formal con flujos de aprobación, revisiones periódicas y automatización parcial integrada con RRHH.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un sistema integral de gestión de identidades (IAM) con aprovisionamiento/desaprovisionamiento automatizado, integración completa con RRHH, revisiones certificadas y análisis de anomalías.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "8516bc7a-4dbe-45ac-b137-1bd34bc8545a",
+    "texto": "¿Cómo se implementa el principio de privilegio mínimo en la organización?",
+    "descripcion": "Se refiere a la práctica de limitar los derechos de acceso de usuarios a los recursos mínimos estrictamente necesarios para realizar sus funciones.",
+    "nivel_diagnostico": 1,
+    "orden": 2,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No se aplica el principio de privilegio mínimo; los usuarios suelen tener más accesos de los necesarios.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se intenta aplicar el principio de manera informal, pero sin un enfoque sistemático o verificaciones.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un enfoque básico con roles predefinidos, pero con excepciones frecuentes y sin revisiones periódicas efectivas.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un modelo formal de roles y permisos basado en funciones, con revisiones periódicas y procesos de excepción documentados.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un modelo integral con gestión basada en atributos (ABAC), análisis de uso real de privilegios, ajuste dinámico de permisos y tecnologías de elevación de privilegios justo a tiempo.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "8516bc7a-4dbe-45ac-b137-1bd34bc8545a",
+    "texto": "¿Cómo se gestionan las contraseñas y otros mecanismos de autenticación?",
+    "descripcion": "Se refiere a las políticas y controles para asegurar que los mecanismos de autenticación sean robustos y seguros.",
+    "nivel_diagnostico": 1,
+    "orden": 3,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existen políticas de contraseñas o son muy básicas; no se utilizan mecanismos adicionales de autenticación.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existen políticas básicas de contraseñas, pero sin aplicación técnica consistente y sin mecanismos adicionales de autenticación.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existen políticas de contraseñas aplicadas técnicamente en la mayoría de sistemas, con algunos sistemas críticos utilizando autenticación de dos factores.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existen políticas robustas de contraseñas aplicadas consistentemente, con autenticación multifactor obligatoria para accesos privilegiados y remotos.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una estrategia integral de autenticación con políticas basadas en riesgo, autenticación multifactor generalizada, uso de tecnologías biométricas o sin contraseña (passwordless) donde es apropiado, y monitoreo continuo de credenciales comprometidas.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "8516bc7a-4dbe-45ac-b137-1bd34bc8545a",
+    "texto": "¿Cómo se controla y monitorea el acceso a sistemas y datos críticos?",
+    "descripcion": "Se refiere a los mecanismos para supervisar y auditar quién accede a información sensible y qué acciones realiza.",
+    "nivel_diagnostico": 1,
+    "orden": 4,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe monitoreo o registro sistemático de accesos a sistemas y datos críticos.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existe registro básico de accesos en algunos sistemas, pero sin revisión proactiva o correlación entre sistemas.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe registro de accesos en la mayoría de sistemas críticos, con algunas revisiones periódicas pero sin alertas en tiempo real o análisis avanzado.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un sistema centralizado de logs con monitoreo activo, alertas configuradas para actividades sospechosas y revisiones periódicas documentadas.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un sistema integral con monitoreo en tiempo real, análisis de comportamiento de usuarios (UEBA), detección de anomalías basada en IA, y capacidades de respuesta automatizada ante actividades sospechosas.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "8516bc7a-4dbe-45ac-b137-1bd34bc8545a",
+    "texto": "¿Cómo se gestiona el acceso remoto a los sistemas y redes de la organización?",
+    "descripcion": "Se refiere a los controles y tecnologías implementados para asegurar las conexiones remotas a recursos corporativos.",
+    "nivel_diagnostico": 1,
+    "orden": 5,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existen controles específicos para acceso remoto o se utilizan mecanismos inseguros.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existe acceso VPN básico con autenticación simple, sin controles adicionales o políticas específicas para acceso remoto.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe VPN con autenticación robusta, algunas políticas específicas para acceso remoto, pero con monitoreo limitado y sin verificación de estado de dispositivos.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe una solución de acceso remoto seguro con autenticación multifactor obligatoria, cifrado fuerte, monitoreo activo y algunas verificaciones de estado de dispositivos.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una arquitectura integral de acceso remoto basada en Zero Trust, con autenticación multifactor, evaluación continua de postura de seguridad de dispositivos, acceso con privilegio mínimo, y monitoreo avanzado con análisis de comportamiento.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+## 4. Dominio: Seguridad de Datos
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "9706691a-b1d5-4ad9-95a3-5d22ca51e12e",
+    "texto": "¿Cómo se clasifica la información en la organización?",
+    "descripcion": "Se refiere al proceso para identificar y categorizar la información según su sensibilidad y requisitos de protección.",
+    "nivel_diagnostico": 1,
+    "orden": 1,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un esquema o proceso de clasificación de información.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existe un esquema básico de clasificación, pero no se aplica consistentemente o es poco conocido por los empleados.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un esquema formal de clasificación con niveles definidos, aplicado a la información más crítica, pero sin herramientas automatizadas o verificación sistemática.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un esquema completo de clasificación, bien documentado, comunicado a los empleados, con controles asociados a cada nivel y verificación periódica de cumplimiento.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un programa integral de clasificación con herramientas automatizadas de descubrimiento y etiquetado, controles técnicos que aplican protecciones basadas en etiquetas, métricas de efectividad y mejora continua.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "9706691a-b1d5-4ad9-95a3-5d22ca51e12e",
+    "texto": "¿Cómo se protege la información confidencial en reposo (almacenada)?",
+    "descripcion": "Se refiere a los controles implementados para proteger la información sensible cuando está almacenada en sistemas, bases de datos, dispositivos o medios físicos.",
+    "nivel_diagnostico": 1,
+    "orden": 2,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existen controles específicos para proteger la información confidencial almacenada.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existen algunos controles básicos (como contraseñas), pero sin cifrado sistemático u otros mecanismos avanzados de protección.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Se utiliza cifrado para algunos sistemas críticos y bases de datos, pero sin una estrategia integral o gestión centralizada de claves.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe una estrategia formal de protección con cifrado aplicado consistentemente a datos confidenciales, con gestión de claves y controles de acceso robustos.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una estrategia integral con cifrado de última generación, tokenización donde es apropiado, gestión avanzada de claves, controles de prevención de pérdida de datos (DLP), y monitoreo continuo de efectividad de controles.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "9706691a-b1d5-4ad9-95a3-5d22ca51e12e",
+    "texto": "¿Cómo se protege la información confidencial en tránsito (durante la transmisión)?",
+    "descripcion": "Se refiere a los controles implementados para proteger la información sensible cuando se transmite a través de redes o entre sistemas.",
+    "nivel_diagnostico": 1,
+    "orden": 3,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existen controles específicos para proteger la información durante la transmisión.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se utiliza cifrado básico (como HTTPS) para algunas aplicaciones web, pero sin una política consistente o verificación.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Se utiliza cifrado para la mayoría de las comunicaciones web y algunas conexiones internas críticas, pero sin una estrategia integral o monitoreo.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe una política formal que requiere cifrado para todas las transmisiones de datos confidenciales, con implementación verificada y monitoreo regular.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una estrategia integral con cifrado de última generación para todas las transmisiones sensibles, inspección de tráfico cifrado, verificación automatizada de cumplimiento, y controles avanzados como firmas digitales donde es apropiado.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "9706691a-b1d5-4ad9-95a3-5d22ca51e12e",
+    "texto": "¿Cómo se gestiona el ciclo de vida de los datos en la organización?",
+    "descripcion": "Se refiere a los procesos para gestionar la información desde su creación hasta su eliminación segura, incluyendo retención y disposición.",
+    "nivel_diagnostico": 1,
+    "orden": 4,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un proceso formal para gestionar el ciclo de vida de los datos.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existen algunas prácticas básicas de retención para ciertos tipos de datos (principalmente por requisitos legales), pero sin un enfoque integral.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe una política de retención de datos documentada para las categorías principales de información, pero con implementación inconsistente y eliminación segura limitada.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un programa formal de gestión del ciclo de vida con políticas de retención basadas en requisitos legales y de negocio, procesos de eliminación segura, y auditorías periódicas.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un programa integral con clasificación automatizada, aplicación técnica de políticas de retención, eliminación segura verificable, herramientas de descubrimiento de datos, y métricas de efectividad.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "9706691a-b1d5-4ad9-95a3-5d22ca51e12e",
+    "texto": "¿Cómo se previene la fuga o pérdida de información confidencial?",
+    "descripcion": "Se refiere a los controles implementados para evitar la divulgación no autorizada de información sensible, ya sea accidental o intencional.",
+    "nivel_diagnostico": 1,
+    "orden": 5,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existen controles específicos para prevenir la fuga de información.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existen algunas restricciones básicas (como bloqueo de sitios web o dispositivos USB) y políticas, pero sin monitoreo o controles técnicos avanzados.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe una combinación de políticas, concientización y algunos controles técnicos para canales de comunicación principales, pero sin una solución integral de DLP.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe una solución formal de prevención de pérdida de datos (DLP) que cubre los principales canales de comunicación, con políticas basadas en clasificación y monitoreo activo.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una estrategia integral con soluciones avanzadas de DLP que cubren todos los canales relevantes, integración con clasificación automatizada, análisis de comportamiento, machine learning para reducir falsos positivos, y respuesta automatizada a incidentes.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+## 5. Dominio: Seguridad de Aplicaciones
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "6c033c49-c644-4f94-ab27-5a01cc688872",
+    "texto": "¿Cómo se integra la seguridad en el ciclo de desarrollo de software?",
+    "descripcion": "Se refiere a cómo las consideraciones de seguridad se incorporan en las diferentes fases del proceso de desarrollo de aplicaciones.",
+    "nivel_diagnostico": 1,
+    "orden": 1,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "La seguridad no se considera formalmente durante el desarrollo; se aborda principalmente después de la implementación.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se realizan algunas actividades básicas de seguridad (como pruebas de penetración) al final del ciclo de desarrollo, pero sin un enfoque sistemático.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existen algunas prácticas de seguridad integradas en el ciclo de desarrollo (como revisión de código y análisis de vulnerabilidades), pero no de manera consistente en todos los proyectos.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un proceso formal de desarrollo seguro (SSDLC) con actividades de seguridad definidas para cada fase, requisitos de seguridad, revisiones y pruebas regulares.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un programa integral de DevSecOps con seguridad completamente integrada en procesos ágiles/CI-CD, automatización de pruebas de seguridad, uso de herramientas especializadas en todas las fases, métricas de seguridad y mejora continua.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "6c033c49-c644-4f94-ab27-5a01cc688872",
+    "texto": "¿Cómo se identifican y gestionan las vulnerabilidades en aplicaciones?",
+    "descripcion": "Se refiere a los procesos para descubrir, evaluar, priorizar y remediar vulnerabilidades de seguridad en el software.",
+    "nivel_diagnostico": 1,
+    "orden": 2,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un proceso formal para identificar o gestionar vulnerabilidades en aplicaciones.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se realizan algunas pruebas de seguridad ad-hoc o reactivas, principalmente después de incidentes o para aplicaciones muy críticas.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Se realizan pruebas de seguridad (como análisis de código estático o pruebas de penetración) para aplicaciones críticas, pero sin un programa integral o seguimiento sistemático.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un programa formal de gestión de vulnerabilidades con pruebas regulares, proceso de priorización basado en riesgo, seguimiento de remediación y métricas básicas.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un programa integral con múltiples capas de pruebas automatizadas (SAST, DAST, SCA, IAST), integración en CI/CD, análisis de causa raíz, métricas avanzadas y mejora continua de patrones de seguridad reutilizables.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "6c033c49-c644-4f94-ab27-5a01cc688872",
+    "texto": "¿Cómo se protegen las aplicaciones web contra ataques comunes?",
+    "descripcion": "Se refiere a los controles implementados para defender las aplicaciones web contra vulnerabilidades frecuentes como inyección SQL, XSS, CSRF y otros riesgos del OWASP Top 10.",
+    "nivel_diagnostico": 1,
+    "orden": 3,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existen controles específicos para proteger aplicaciones web contra ataques comunes.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se implementan algunos controles básicos de manera inconsistente, principalmente en respuesta a incidentes previos.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Se implementan controles estándar para los riesgos más críticos (como inyección SQL y XSS) en aplicaciones importantes, pero sin un enfoque sistemático o verificación regular.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un conjunto definido de controles de seguridad que abordan el OWASP Top 10 y otros riesgos relevantes, implementados consistentemente con verificación regular.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una estrategia integral con múltiples capas de defensa (incluyendo WAF, bibliotecas de seguridad estandarizadas, validación rigurosa de entradas, protección contra bots), monitoreo en tiempo real, y respuesta automatizada a ataques.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "6c033c49-c644-4f94-ab27-5a01cc688872",
+    "texto": "¿Cómo se gestiona la seguridad de las APIs?",
+    "descripcion": "Se refiere a los controles implementados para proteger las interfaces de programación de aplicaciones (APIs) que exponen funcionalidades y datos.",
+    "nivel_diagnostico": 1,
+    "orden": 4,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existen controles específicos para la seguridad de APIs o no se tiene visibilidad de las APIs expuestas.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se implementan algunos controles básicos de autenticación para APIs, pero sin un enfoque sistemático o inventario completo.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un enfoque básico para la seguridad de APIs con autenticación consistente, algo de documentación y algunas pruebas de seguridad para APIs críticas.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un programa formal con inventario de APIs, estándares de seguridad definidos (autenticación, autorización, cifrado), pruebas regulares y monitoreo de uso.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una estrategia integral con gestión del ciclo de vida completo de APIs, gateway de API con controles avanzados, descubrimiento automatizado, protección contra amenazas específicas de API, y análisis de comportamiento para detectar uso anómalo.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "6c033c49-c644-4f94-ab27-5a01cc688872",
+    "texto": "¿Cómo se gestiona la seguridad de las aplicaciones de terceros o adquiridas?",
+    "descripcion": "Se refiere a los procesos para evaluar y asegurar aplicaciones comerciales, de código abierto o desarrolladas por terceros.",
+    "nivel_diagnostico": 1,
+    "orden": 5,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un proceso para evaluar la seguridad de aplicaciones de terceros antes de su adquisición o implementación.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se realizan algunas verificaciones básicas para aplicaciones críticas, pero sin un proceso formal o criterios consistentes.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un proceso básico de evaluación de seguridad para nuevas aplicaciones importantes, con algunos criterios definidos pero implementación inconsistente.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un proceso formal con criterios de seguridad definidos, evaluaciones documentadas, cláusulas contractuales de seguridad y verificación periódica de actualizaciones críticas.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un programa integral con evaluaciones rigurosas basadas en riesgo, análisis de composición de software (SCA), verificación de cadena de suministro, monitoreo continuo de vulnerabilidades, y gestión proactiva de parches de seguridad.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+## 6. Dominio: Seguridad de Infraestructura
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "9f59d788-3124-4be6-ad1e-eae823075d8c",
+    "texto": "¿Cómo se gestiona la seguridad de los endpoints (estaciones de trabajo, portátiles, dispositivos móviles)?",
+    "descripcion": "Se refiere a los controles implementados para proteger los dispositivos finales que acceden a los recursos corporativos.",
+    "nivel_diagnostico": 1,
+    "orden": 1,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existen controles sistemáticos para la seguridad de endpoints; se utilizan principalmente antivirus básicos o controles predeterminados.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se utilizan soluciones antivirus/antimalware en la mayoría de dispositivos, pero con gestión limitada y sin políticas de configuración segura consistentes.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un enfoque básico con antivirus gestionado centralmente, algunas políticas de configuración segura y gestión parcial de parches, pero sin protección avanzada contra amenazas.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un programa formal con soluciones EPP/EDR, gestión centralizada, políticas de configuración segura, gestión de parches, y controles de acceso basados en la postura de seguridad del dispositivo.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una estrategia integral con soluciones avanzadas de XDR, gestión unificada de endpoints, cifrado completo de discos, microsegmentación, análisis de comportamiento, respuesta automatizada a incidentes y monitoreo continuo de la postura de seguridad.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "9f59d788-3124-4be6-ad1e-eae823075d8c",
+    "texto": "¿Cómo se protegen los servidores y la infraestructura de centros de datos?",
+    "descripcion": "Se refiere a los controles implementados para asegurar servidores, sistemas operativos y la infraestructura física o virtual que los soporta.",
+    "nivel_diagnostico": 1,
+    "orden": 2,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existen controles sistemáticos para la seguridad de servidores; se aplican principalmente configuraciones predeterminadas.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se implementan algunos controles básicos (como antivirus y firewalls) en servidores críticos, pero sin estándares de configuración segura o gestión sistemática.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un enfoque básico con algunas líneas base de seguridad para servidores principales, gestión parcial de parches y controles de acceso, pero sin hardening sistemático o monitoreo avanzado.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un programa formal con estándares de configuración segura basados en CIS/NIST, proceso de hardening, gestión de parches, segmentación de red, y monitoreo de seguridad.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una estrategia integral con automatización de configuración segura, microsegmentación, gestión de vulnerabilidades en tiempo real, protección avanzada contra amenazas, monitoreo de integridad de archivos, y respuesta automatizada a incidentes.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "9f59d788-3124-4be6-ad1e-eae823075d8c",
+    "texto": "¿Cómo se gestiona la seguridad de la red corporativa?",
+    "descripcion": "Se refiere a los controles implementados para proteger la infraestructura de red y las comunicaciones.",
+    "nivel_diagnostico": 1,
+    "orden": 3,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "Se utilizan principalmente controles básicos como firewalls perimetrales, sin segmentación interna significativa o monitoreo avanzado.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existe protección perimetral básica con algunas reglas de firewall y segmentación limitada para sistemas críticos, pero sin defensa en profundidad o visibilidad avanzada.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe segmentación de red básica, firewalls internos/externos, alguna detección de intrusiones y VPNs para acceso remoto, pero con monitoreo limitado y sin protección avanzada contra amenazas.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe una arquitectura de red segura con segmentación apropiada, sistemas IDS/IPS, análisis de flujos de red, protección DDoS, y monitoreo activo con respuesta a incidentes.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una estrategia integral con microsegmentación, inspección de tráfico cifrado, detección avanzada de amenazas basada en comportamiento, Zero Trust Network Access, y orquestación de seguridad con respuesta automatizada.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "9f59d788-3124-4be6-ad1e-eae823075d8c",
+    "texto": "¿Cómo se gestiona la seguridad en entornos cloud?",
+    "descripcion": "Se refiere a los controles implementados para proteger recursos, datos y aplicaciones alojados en proveedores de servicios en la nube (IaaS, PaaS, SaaS).",
+    "nivel_diagnostico": 1,
+    "orden": 4,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existen controles específicos para entornos cloud; se confía principalmente en las configuraciones predeterminadas del proveedor.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se implementan algunos controles básicos de seguridad en la nube, pero sin una estrategia coherente, evaluación de riesgos o visibilidad centralizada.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un enfoque básico con algunas políticas específicas para cloud, configuraciones de seguridad para servicios críticos y controles de acceso, pero sin automatización o monitoreo avanzado.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un marco formal de seguridad en la nube con políticas específicas, estándares de configuración segura, evaluación regular de configuraciones, y monitoreo centralizado de eventos de seguridad.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una estrategia integral con infraestructura como código seguro, automatización de políticas, CSPM avanzado, CASB para aplicaciones SaaS, gestión de identidades para cloud, y protección de datos nativa para la nube.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "9f59d788-3124-4be6-ad1e-eae823075d8c",
+    "texto": "¿Cómo se gestiona la aplicación de parches y actualizaciones de seguridad?",
+    "descripcion": "Se refiere al proceso para identificar, probar, implementar y verificar parches de seguridad en sistemas operativos y aplicaciones.",
+    "nivel_diagnostico": 1,
+    "orden": 5,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un proceso sistemático para la aplicación de parches; se realizan actualizaciones de manera reactiva o ad-hoc.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se aplican parches críticos para algunos sistemas, pero sin un proceso formal, cronograma regular o seguimiento completo.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un proceso básico de gestión de parches con cronogramas definidos para sistemas críticos, pero con cobertura incompleta, pruebas limitadas o seguimiento manual.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un programa formal con inventario completo de activos, priorización basada en riesgo, cronogramas definidos, entornos de prueba, y métricas de cumplimiento.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un programa integral con automatización de parches, verificación de implementación, gestión de excepciones, integración con gestión de vulnerabilidades, y métricas avanzadas con mejora continua.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+## 7. Dominio: Gestión de Incidentes
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "a6977805-4703-490e-8e94-d94ddba8b70d",
+    "texto": "¿Cómo está organizada la capacidad de respuesta a incidentes de seguridad?",
+    "descripcion": "Se refiere a la estructura, roles, responsabilidades y recursos dedicados a la gestión y respuesta a incidentes de seguridad.",
+    "nivel_diagnostico": 1,
+    "orden": 1,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un equipo o proceso formal para responder a incidentes de seguridad; la respuesta es ad-hoc.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existen algunos roles designados para responder a incidentes, pero sin un equipo formal, procedimientos claros o entrenamiento específico.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un equipo básico de respuesta con algunos procedimientos documentados y roles definidos, pero con recursos limitados y sin ejercicios regulares de simulación.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un equipo formal de respuesta a incidentes con procedimientos detallados, roles y responsabilidades claras, entrenamiento específico y ejercicios periódicos de simulación.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un programa integral con un equipo especializado, procedimientos maduros alineados con estándares internacionales, herramientas avanzadas, entrenamiento continuo, ejercicios frecuentes, y mejora continua basada en lecciones aprendidas.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "a6977805-4703-490e-8e94-d94ddba8b70d",
+    "texto": "¿Cómo se detectan los incidentes de seguridad?",
+    "descripcion": "Se refiere a las capacidades técnicas y procesos implementados para identificar posibles incidentes de seguridad.",
+    "nivel_diagnostico": 1,
+    "orden": 2,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existen capacidades específicas para detectar incidentes; la detección ocurre principalmente por observación casual o reportes de usuarios.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existen algunas herramientas básicas (como antivirus y firewalls) que generan alertas, pero sin correlación, monitoreo centralizado o capacidad de detección avanzada.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un sistema básico de gestión de eventos de seguridad que recopila logs de sistemas críticos, con algunas reglas de detección y monitoreo parcial, pero sin capacidades avanzadas de correlación o análisis.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un SIEM implementado con recopilación amplia de logs, reglas de correlación, monitoreo 24/7, y capacidad para detectar amenazas conocidas con alertas priorizadas.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una plataforma avanzada de detección que combina SIEM, EDR, NDR, análisis de comportamiento (UEBA), inteligencia de amenazas, detección de anomalías basada en IA/ML, y capacidades de hunting proactivo.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "a6977805-4703-490e-8e94-d94ddba8b70d",
+    "texto": "¿Cómo se gestionan y responden los incidentes de seguridad?",
+    "descripcion": "Se refiere al proceso para clasificar, priorizar, contener, erradicar y recuperarse de incidentes de seguridad.",
+    "nivel_diagnostico": 1,
+    "orden": 3,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un proceso formal para gestionar incidentes; la respuesta es principalmente reactiva y ad-hoc.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existe un proceso básico informal, pero sin procedimientos detallados, clasificación sistemática o documentación consistente.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un proceso documentado con pasos básicos para clasificación, contención y recuperación, pero con implementación inconsistente y sin métricas de efectividad.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un proceso formal con procedimientos detallados para cada fase, plantillas de documentación, roles claros, métricas de tiempo de respuesta y revisiones post-incidente.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un programa integral con playbooks automatizados, orquestación de respuesta, integración con inteligencia de amenazas, análisis forense avanzado, métricas detalladas y proceso formal de lecciones aprendidas para mejora continua.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "a6977805-4703-490e-8e94-d94ddba8b70d",
+    "texto": "¿Cómo se gestiona la comunicación durante incidentes de seguridad?",
+    "descripcion": "Se refiere a los procesos para comunicar información sobre incidentes a partes interesadas internas y externas, incluyendo directivos, empleados, clientes, reguladores y medios.",
+    "nivel_diagnostico": 1,
+    "orden": 4,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un plan de comunicación para incidentes; la comunicación es ad-hoc y reactiva.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existe alguna consideración básica sobre comunicación durante incidentes, pero sin planes formales, plantillas o roles definidos.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un plan básico que identifica a quién notificar, pero con detalles limitados sobre contenido, canales, cronogramas o consideraciones legales/regulatorias.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un plan formal con roles definidos, plantillas preparadas, consideración de requisitos legales/regulatorios, y procedimientos para diferentes tipos de audiencias y escenarios.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una estrategia integral con planes detallados por escenario, coordinación con legal/PR/RRHH, consideración de múltiples jurisdicciones, ejercicios regulares de simulación, y herramientas dedicadas para gestión de crisis y comunicación segura.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "a6977805-4703-490e-8e94-d94ddba8b70d",
+    "texto": "¿Cómo se documentan, analizan y aprovechan las lecciones aprendidas de los incidentes?",
+    "descripcion": "Se refiere al proceso para registrar incidentes, realizar análisis post-incidente y aplicar las lecciones aprendidas para mejorar la postura de seguridad.",
+    "nivel_diagnostico": 1,
+    "orden": 5,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un proceso para documentar incidentes o capturar lecciones aprendidas.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se realiza documentación básica de algunos incidentes, pero sin análisis sistemático o proceso formal para aplicar lecciones aprendidas.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un proceso básico para documentar incidentes y realizar algunas revisiones post-incidente, pero con seguimiento limitado de acciones correctivas o mejoras.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un proceso formal con documentación detallada, análisis de causa raíz, revisiones estructuradas post-incidente, y seguimiento de acciones correctivas hasta su implementación.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un programa integral con base de conocimiento de incidentes, métricas avanzadas, análisis de tendencias, proceso formal de gestión de cambios basado en lecciones aprendidas, y mejora continua de capacidades de detección y respuesta.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+## 8. Dominio: Continuidad del Negocio
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "767de06d-c2d0-4c1b-ba1d-4599ac688f7d",
+    "texto": "¿Cómo se integra la seguridad de la información en los planes de continuidad del negocio?",
+    "descripcion": "Se refiere a cómo los aspectos de seguridad de la información se consideran en la planificación de continuidad del negocio y recuperación ante desastres.",
+    "nivel_diagnostico": 1,
+    "orden": 1,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "La seguridad de la información no se considera específicamente en los planes de continuidad del negocio, o no existen tales planes.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existe alguna consideración básica de seguridad en los planes de continuidad, pero sin un enfoque sistemático o análisis de riesgos específicos.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Los planes de continuidad incluyen consideraciones de seguridad para sistemas críticos, pero con cobertura incompleta o sin verificación regular de controles.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "La seguridad está formalmente integrada en los planes de continuidad, con análisis de impacto que considera explícitamente riesgos de seguridad, controles específicos y pruebas regulares.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una integración completa con análisis detallado de escenarios de seguridad (como ransomware o brechas de datos), controles específicos para cada escenario, pruebas frecuentes, y mejora continua basada en incidentes reales y simulados.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "767de06d-c2d0-4c1b-ba1d-4599ac688f7d",
+    "texto": "¿Cómo se planifica y prueba la recuperación de sistemas críticos tras incidentes de seguridad?",
+    "descripcion": "Se refiere a los planes, procedimientos y pruebas para restaurar sistemas y datos después de incidentes como ransomware, corrupción de datos o compromisos de seguridad.",
+    "nivel_diagnostico": 1,
+    "orden": 2,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existen planes específicos para recuperación tras incidentes de seguridad.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existen algunos procedimientos básicos de respaldo, pero sin planes formales de recuperación específicos para escenarios de seguridad o pruebas regulares.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existen planes básicos de recuperación que consideran algunos escenarios de seguridad para sistemas críticos, con pruebas ocasionales pero no exhaustivas.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existen planes detallados de recuperación que abordan específicamente escenarios de seguridad, con procedimientos documentados, roles asignados y pruebas regulares.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una estrategia integral con planes detallados para múltiples escenarios de seguridad, arquitectura de sistemas diseñada para resiliencia, pruebas frecuentes con simulación de escenarios complejos, y mejora continua basada en resultados de pruebas e incidentes reales.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "767de06d-c2d0-4c1b-ba1d-4599ac688f7d",
+    "texto": "¿Cómo se gestionan las copias de seguridad (backups) desde una perspectiva de seguridad?",
+    "descripcion": "Se refiere a cómo se protegen las copias de seguridad contra acceso no autorizado, manipulación o destrucción, especialmente en escenarios como ransomware.",
+    "nivel_diagnostico": 1,
+    "orden": 3,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un enfoque sistemático para la seguridad de las copias de seguridad; se realizan backups básicos sin consideraciones específicas de seguridad.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se realizan copias de seguridad regulares, pero con controles de seguridad limitados y sin consideración específica para amenazas como ransomware.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un enfoque básico de seguridad para backups con alguna segregación, control de acceso y retención de versiones, pero sin una estrategia integral contra amenazas avanzadas.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe una estrategia formal con backups inmutables o air-gapped, cifrado, control de acceso basado en roles, pruebas regulares de restauración y consideración específica para amenazas como ransomware.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una estrategia integral con arquitectura 3-2-1-1-0 (múltiples copias, medios, ubicaciones, copia offline y sin errores), cifrado avanzado, verificación de integridad, pruebas automatizadas de restauración, y protección específica contra amenazas sofisticadas.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "767de06d-c2d0-4c1b-ba1d-4599ac688f7d",
+    "texto": "¿Cómo se mantienen las operaciones de seguridad durante situaciones de crisis?",
+    "descripcion": "Se refiere a cómo se asegura que las funciones críticas de seguridad continúen operando durante interrupciones significativas o situaciones de emergencia.",
+    "nivel_diagnostico": 1,
+    "orden": 4,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un plan específico para mantener operaciones de seguridad durante crisis.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Existe alguna consideración básica sobre operaciones de seguridad en crisis, pero sin planes formales o recursos dedicados.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un plan básico que identifica funciones críticas de seguridad y procedimientos alternativos, pero con recursos limitados y pruebas infrecuentes.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un plan formal con procedimientos detallados para mantener funciones críticas de seguridad, personal designado con roles de respaldo, y pruebas regulares.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe una estrategia integral con redundancia geográfica de operaciones de seguridad, automatización de funciones críticas, capacidades de trabajo remoto seguro, ejercicios frecuentes de simulación, y mejora continua basada en lecciones aprendidas.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+```json
+{
+  "pregunta": {
+    "dominio_id": "767de06d-c2d0-4c1b-ba1d-4599ac688f7d",
+    "texto": "¿Cómo se evalúa y mejora la resiliencia de seguridad de la organización?",
+    "descripcion": "Se refiere a los procesos para medir, evaluar y fortalecer la capacidad de la organización para resistir, adaptarse y recuperarse de incidentes de seguridad.",
+    "nivel_diagnostico": 1,
+    "orden": 5,
+    "activa": true,
+    "nivel_dificultad_id": null
+  },
+  "opciones_respuesta": [
+    {
+      "texto": "No existe un enfoque sistemático para evaluar o mejorar la resiliencia de seguridad.",
+      "valor_puntaje": 1,
+      "orden": 1
+    },
+    {
+      "texto": "Se realizan algunas evaluaciones básicas de vulnerabilidades o riesgos, pero sin un enfoque específico en resiliencia o mejora sistemática.",
+      "valor_puntaje": 2,
+      "orden": 2
+    },
+    {
+      "texto": "Existe un enfoque básico con algunas métricas de resiliencia, evaluaciones periódicas y mejoras reactivas basadas principalmente en incidentes.",
+      "valor_puntaje": 3,
+      "orden": 3
+    },
+    {
+      "texto": "Existe un programa formal con métricas definidas de resiliencia, evaluaciones regulares (incluyendo pruebas de penetración y ejercicios de simulación), y un proceso estructurado de mejora continua.",
+      "valor_puntaje": 4,
+      "orden": 4
+    },
+    {
+      "texto": "Existe un programa integral con marco de resiliencia basado en estándares, ejercicios avanzados (como red teaming y simulaciones de crisis), análisis de escenarios, benchmarking externo, y un proceso maduro de mejora continua con participación ejecutiva.",
+      "valor_puntaje": 5,
+      "orden": 5
+    }
+  ]
+}
+```
+
+## Scripts SQL para Inserción
+
+Para facilitar la inserción de estas preguntas y opciones en tu base de datos, aquí tienes un ejemplo de cómo podrías estructurar las sentencias SQL:
+
+-- Ejemplo para insertar una pregunta
+INSERT INTO public.preguntas (
+  id, 
+  dominio_id, 
+  texto, 
+  descripcion, 
+  nivel_diagnostico, 
+  orden, 
+  activa, 
+  nivel_dificultad_id,
+  created_at,
+  updated_at
+) VALUES (
+  gen_random_uuid(), -- Genera un UUID aleatorio
+  '8a2b958c-0bc5-4360-bd12-8659209c5be1', -- UUID del dominio
+  '¿Cuenta la organización con políticas de seguridad de la información formalmente documentadas?',
+  'Las políticas de seguridad son documentos que establecen el compromiso de la dirección y el enfoque de la organización para gestionar la seguridad de la información.',
+  1,
+  1,
+  true,
+  null,
+  NOW(),
+  NOW()
+) RETURNING id; -- Devuelve el ID generado para usarlo en las opciones de respuesta
+
+-- Ejemplo para insertar opciones de respuesta (usando el ID devuelto de la inserción de la pregunta)
+INSERT INTO public.opciones_respuesta (
+  id,
+  pregunta_id,
+  texto,
+  valor_puntaje,
+  orden,
+  created_at,
+  updated_at
+) VALUES
+(gen_random_uuid(), 'ID_PREGUNTA_DEVUELTO', 'No existen políticas de seguridad de la información documentadas.', 1, 1, NOW(), NOW()),
+(gen_random_uuid(), 'ID_PREGUNTA_DEVUELTO', 'Existen algunas políticas básicas, pero no están formalizadas ni aprobadas por la dirección.', 2, 2, NOW(), NOW()),
+(gen_random_uuid(), 'ID_PREGUNTA_DEVUELTO', 'Existen políticas formales aprobadas por la dirección, pero no se revisan regularmente ni se comunican de manera efectiva.', 3, 3, NOW(), NOW()),
+(gen_random_uuid(), 'ID_PREGUNTA_DEVUELTO', 'Existen políticas completas, aprobadas, comunicadas y revisadas periódicamente, pero su cumplimiento no se mide sistemáticamente.', 4, 4, NOW(), NOW()),
+(gen_random_uuid(), 'ID_PREGUNTA_DEVUELTO', 'Existen políticas completas, aprobadas, comunicadas, revisadas periódicamente y con métricas de cumplimiento que se reportan a la dirección.', 5, 5, NOW(), NOW());
+
+
